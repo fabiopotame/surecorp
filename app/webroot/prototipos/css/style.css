@@ -1,0 +1,53 @@
+body{
+	font-family: "arial";
+}
+.logo{
+	max-width: 150px;
+	display: inline-block;
+	margin-top: 15px;
+}
+.bg-menu-light{
+	background: #f7d8d6;
+}
+.bg-menu-dark{
+	background: #f0bfbd;
+}
+.bg-menu-border-top{
+	border-top: 1px solid #c1635c;
+}
+.bg-menu-border-bottom{
+	border-bottom: 1px solid #c1635c;
+}
+.menu div[class^="col-"] {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #d80000;
+}
+.menu div[class^="col-"]:first-child{
+	color: black;
+}
+.progress.config{
+	height: 4px;
+}
+.border-radius-20{
+	border-radius: 20px;
+}
+.table{
+	margin-bottom: 0;
+	border-bottom: 2px solid #ccc;
+}
+.seta{
+	width: 30px;
+	float: right;
+}
+.relative{
+	position: relative !important;
+}
+.pen-adjust{
+	position: absolute;
+	right: 4%;
+	top: 10px;
+}
+.cursor{
+	cursor: pointer;
+}

@@ -1,0 +1,1 @@
+#!/bin/bashdocker ps -a -q  | xargs sudo docker stop
